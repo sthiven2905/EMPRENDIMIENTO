@@ -3,380 +3,374 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pastelería loja| pastelería Artesanal & Alta Repostería en Granada</title>
+    <title>Dulce Tentación | Pastelería Artesanal en Loja</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Enlace a CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts para tipografías elegantes -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Botón Flotante de WhatsApp -->
-    <a href="https://wa.me/54623554090?text=Hola,%20me%20gustaría%20consultar%20sobre%20un%20pedido%20o%20encargo." class="whatsapp-float" target="_blank" rel="noopener noreferrer">
-        <span class="wa-icon">💬</span> <span>WhatsApp</span>
-    </a>
-
-    <!-- Barra Superior Comercial -->
-    <div class="top-bar">
-        <div class="top-bar-content">
-            <div class="top-item">📍 <strong>Ubicación:</strong> Cuesta la posadilla 2, Granada</div>
-            <div class="top-item">📞 <strong>Teléfono:</strong> 123 456 789</div>
-            <div class="top-item highlight">⏰ Horario: Lunes a Domingo de 8:30 a 20:30 h</div>
+    <!-- Header / Barra de Navegación -->
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-cake-candles"></i>
+            <span>Dulce Tentación</span>
         </div>
-    </div>
-
-    <!-- Navegación Principal -->
-    <header class="main-header">
-        <nav class="navbar">
-            <a href="#" class="logo">
-                Pastelería <span>Loja</span>
-                <small>Granada • Loja 2026</small>
-            </a>
-            <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#destacados">Destacados</a></li>
-                <li><a href="#catalogo">Catálogo Completo</a></li>
-                <li><a href="#nosotros">¿Quiénes somos?</a></li>
-                <li><a href="#faqs">Preguntas Frecuentes</a></li>
-                <li><a href="#contacto" class="nav-cta">Contacto</a></li>
-            </ul>
+        <nav class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#precios">Lista de Precios</a>
+            <a href="#ubicacion">Ubicación</a>
+            <a href="#contacto">Contacto</a>
         </nav>
+        <a href="https://wa.me/34623554090?text=Hola,%20quisiera%20hacer%20una%20consulta%20sobre%20sus%20productos" target="_blank" class="nav-whatsapp-btn">
+            <i class="fa-brands fa-whatsapp"></i> Pedidos
+        </a>
     </header>
 
-    <!-- Sección Hero / Banner Principal Envolvente -->
+    <!-- Sección Hero / Inicio -->
     <section id="inicio" class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-container">
-            <span class="hero-badge">✨ Alta Repostería Artesanal en Granada</span>
-            <h1>El Arte de Endulzar tus Mejores Momentos</h1>
-            <p>Selección diaria de especialidades horneadas con pasión, ingredientes de primera calidad y el auténtico sabor tradicional.</p>
-            <div class="hero-actions">
-                <a href="#catalogo" class="btn btn-primary">Ver Todo el Catálogo</a>
-                <a href="https://wa.me/54623554090?text=Hola,%20quiero%20hacer%20un%20encargo%20especial%20desde%20la%20web." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                     Pedir por WhatsApp
-                </a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat-box">
-                    <strong>100%</strong>
-                    <span>Artesanal y Fresco</span>
-                </div>
-                <div class="stat-box">
-                    <strong>Envíos</strong>
-                    <span>A domicilio</span>
-                </div>
-                <div class="stat-box">
-                    <strong>Exclusivo</strong>
-                    <span>Tartas Personalizadas</span>
-                </div>
+        <div class="hero-content">
+            <h1>El arte de endulzar tus momentos</h1>
+            <p>Pastelería artesanal elaborada cada día con ingredientes naturales de la más alta calidad y mucho amor.</p>
+            <p class="hero-location"><i class="fa-solid fa-location-dot"></i> Cuesta la Posadilla 2, 18300, Loja (Granada)</p>
+            <div class="hero-buttons">
+                <a href="#catalogo" class="btn-primary">Ver Catálogo</a>
+                <a href="#precios" class="btn-secondary">Lista de Precios</a>
             </div>
         </div>
     </section>
 
-    <!-- Sección de Beneficios / Calidad -->
-    <section class="benefits">
-        <div class="benefit-card">
-            <div class="benefit-icon">🌾</div>
-            <h3>Materia Prima Noble</h3>
-            <p>Harinas seleccionadas, mantequillas puras y chocolate de alta gama sin aditivos artificiales.</p>
-        </div>
-        <div class="benefit-card">
-            <div class="benefit-icon">🔥</div>
-            <h3>Horneado Diario</h3>
-            <p>Nuestro horno prepara cada día las mejores creaciones para ti.</p>
-        </div>
-        <div class="benefit-card">
-            <div class="benefit-icon">🎨</div>
-            <h3>Diseños a Medida</h3>
-            <p>Hacemos realidad la tarta de tus sueños para cumpleaños, bodas, bautizos y eventos corporativos.</p>
-        </div>
-        <div class="benefit-card">
-            <div class="benefit-icon">🚀</div>
-            <h3>Atención Directa</h3>
-            <p>Comunícate de forma rápida y cómoda con nosotros a través de nuestro canal directo de WhatsApp.</p>
-        </div>
-    </section>
-
-    <!-- Sección Destacados del Mes -->
-    <section id="destacados" class="featured-section">
-        <div class="section-title">
-            <span>Recomendaciones del Maestro Pastelero</span>
-            <h2>Los Favoritos de la Semana</h2>
-            <p>Las creaciones más solicitadas por nuestros clientes en Granada</p>
-        </div>
-
-        <div class="featured-grid">
-            <div class="featured-card">
-                <div class="card-image-wrap">
-                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80" alt="Tarta Trufa Belga">
-                    <span class="badge-tag">Estrella</span>
-                </div>
-                <div class="card-content">
-                    <h3>Tarta Trufa Belga Supreme</h3>
-                    <p>Bizcocho de chocolate húmedo con capas intensas de trufa belga fundida y decoración artesana.</p>
-                    <div class="card-footer-info">
-                        <span class="price">Desde 24,00 €</span>
-                        <a href="https://wa.me/54623554090?text=Hola,%20quiero%20encargar%20la%20Tarta%20Trufa%20Belga." class="btn-sm" target="_blank" rel="noopener noreferrer">Encargar</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="featured-card">
-                <div class="card-image-wrap">
-                    <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80" alt="Piononos de Santa Fe">
-                    <span class="badge-tag">Tradición</span>
-                </div>
-                <div class="card-content">
-                    <h3>Piononos de Santa Fe Clásicos</h3>
-                    <p>Fino bizcocho enrollado bañado en almíbar ligero y coronado con nuestra yema tostada secreta.</p>
-                    <div class="card-footer-info">
-                        <span class="price">1,50 € / ud.</span>
-                        <a href="https://wa.me/54623554090?text=Hola,%20quiero%20encargar%20Piononos%20de%20Santa%20Fe." class="btn-sm" target="_blank" rel="noopener noreferrer">Encargar</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="featured-card">
-                <div class="card-image-wrap">
-                    <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80" alt="Tarta de Hojaldre y Frutas">
-                    <span class="badge-tag">Temporada</span>
-                </div>
-                <div class="card-content">
-                    <h3>Hojaldre Fino con Frutas del Tiempo</h3>
-                    <p>Crujientes capas de hojaldre invertido intercaladas con crema pastelera suave de vainilla natural.</p>
-                    <div class="card-footer-info">
-                        <span class="price">Desde 22,00 €</span>
-                        <a href="https://wa.me/54623554090?text=Hola,%20quiero%20encargar%20la%20Tarta%20de%20Hojaldre%20y%20Frutas." class="btn-sm" target="_blank" rel="noopener noreferrer">Encargar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección de Catálogo Ampliado (Más de 8 tarjetas de productos) -->
+    <!-- Sección Catálogo -->
     <section id="catalogo" class="catalog-section">
         <div class="section-title">
-            <span>Nuestro Menú Completo</span>
-            <h2>Catálogo de Especialidades</h2>
-            <p>Explora todas nuestras variedades dulces, saladas y de obrador diario</p>
+            <h2>Nuestro Catálogo</h2>
+            <p>Explora nuestras creaciones recién horneadas</p>
         </div>
 
-        <div class="catalog-grid">
+        <!-- Filtros por Categoría -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="tartas">Tartas</button>
+            <button class="filter-btn" data-filter="pasteles">Pasteles y Postres</button>
+            <button class="filter-btn" data-filter="bolleria">Bollería</button>
+        </div>
+
+        <!-- Cuadrícula de Productos -->
+        <div class="products-grid">
+            
             <!-- Producto 1 -->
-            <div class="catalog-item">
-                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=500&q=80" alt="Cruasán de Mantequilla">
-                <div class="catalog-body">
-                    <span class="cat-tag">Bollería Diaria</span>
-                    <h3>Cruasán Francés de Mantequilla</h3>
-                    <p>Hojaldre fino y alveolado elaborado con mantequilla pura de denominación.</p>
-                    <div class="catalog-bottom">
-                        <span class="price">1,80 €</span>
-                        <a href="https://wa.me/54623554090?text=Hola,%20quiero%20pedir%20Cruasanes." class="btn-tiny" target="_blank" rel="noopener noreferrer">Pedir</a>
-                    </div>
+            <div class="product-card" data-category="tartas" data-name="Tarta de Chocolate Belga" data-price="28.00 €" data-desc="Deliciosa tarta húmeda de chocolate belga con cobertura de ganache y crujiente de avellanas." data-img="https://www.confiteriashernandez.es/wp-content/uploads/2019/12/TARTA-CHOCOLATE-scaled.jpg">
+                <div class="card-img-container">
+                    <img src="https://www.confiteriashernandez.es/wp-content/uploads/2019/12/TARTA-CHOCOLATE-scaled.jpg" alt="Tarta de Chocolate Belga">
+                    <span class="badge">Tartas</span>
+                </div>
+                <div class="card-body">
+                    <h3>Tarta de Chocolate Belga</h3>
+                    <p class="price">28.00 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
                 </div>
             </div>
 
             <!-- Producto 2 -->
-            <div class="catalog-item">
-                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=500&q=80" alt="Palmera de Chocolate">
-                <div class="catalog-body">
-                    <span class="cat-tag">Bollería Diaria</span>
-                    <h3>Palmera de Hojaldre Bañada</h3>
-                    <p>Crujiente palmera caramelizada con cobertura generosa de chocolate belga.</p>
-                    <div class="catalog-bottom">
-                        <span class="price">2,20 €</span>
-                        <a href="https://wa.me/54623554090?text=Hola,%20quiero%20pedir%20Palmeras%20de%20Chocolate." class="btn-tiny" target="_blank" rel="noopener noreferrer">Pedir</a>
-                    </div>
+            <div class="product-card" data-category="tartas" data-name="Cheesecake de Frambuesa" data-price="24.00 €" data-desc="Suave tarta de queso estilo Nueva York con base de galleta crujiente y coulis casero de frambuesas frescas." data-img="https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/FE68C7EE-020B-456D-BF9D-8F10D39DA6A6/Derivates/52175A9A-FAEF-44C1-B1F7-CAAA169F5771.jpg">
+                <div class="card-img-container">
+                    <img src="https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/FE68C7EE-020B-456D-BF9D-8F10D39DA6A6/Derivates/52175A9A-FAEF-44C1-B1F7-CAAA169F5771.jpg" alt="Cheesecake de Frambuesa">
+                    <span class="badge">Tartas</span>
+                </div>
+                <div class="card-body">
+                    <h3>Cheesecake de Frambuesa</h3>
+                    <p class="price">24.00 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
                 </div>
             </div>
 
             <!-- Producto 3 -->
-            <div class="catalog-item">
-                <img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=500&q=80" alt="Tarta de San Marcos">
-                <div class="catalog-body">
-                    <span class="cat-tag">Tartas Celebración</span>
-                    <h3>Tarta San Marcos Tradicional</h3>
-                    <p>Bizcocho borracho con nata, capa de trufa y superficie crujiente de almendra tostada.</p>
-                    <div class="catalog-bottom">
-                        <span class="price">Desde 21,00 €</span>
-                        <a href="https://wa.me/54623554090?text=Hola,%20quiero%20encargar%20Tarta%20San%20Marcos." class="btn-tiny" target="_blank" rel="noopener noreferrer">Pedir</a>
-                    </div>
+            <div class="product-card" data-category="tartas" data-name="Tarta Red Velvet" data-price="26.00 €" data-desc="Bizcocho esponjoso de terciopelo rojo impregnado en suave vainilla con crema de queso crema suave." data-img="https://imag.bonviveur.com/tarta-red-velvet.jpg">
+                <div class="card-img-container">
+                    <img src="https://imag.bonviveur.com/tarta-red-velvet.jpg" alt="Tarta Red Velvet">
+                    <span class="badge">Tartas</span>
+                </div>
+                <div class="card-body">
+                    <h3>Tarta Red Velvet</h3>
+                    <p class="price">26.00 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
                 </div>
             </div>
 
-            <!-- Producto 4 -->
-            <div class="catalog-item">
-                <img src="https://images.unsplash.com/photo-1535141192574-5d4897c13136?auto=format&fit=crop&w=500&q=80" alt="Tarta Red Velvet">
-                <div class="catalog-body">
-                    <span class="cat-tag">Tartas Celebración</span>
-                    <h3>Tarta Red Velvet Terciopelo</h3>
-                    <p>Capas de bizcocho rojo aterciopelado con crema suave de queso mascarpone y vainilla.</p>
-                    <div class="catalog-bottom">
-                        <span class="price">Desde 25,00 €</span>
-                        <a href="https://wa.me/54623554090?text=Hola,%20quiero%20encargar%20Tarta%20Red%20Velvet." class="btn-tiny" target="_blank" rel="noopener noreferrer">Pedir</a>
-                    </div>
+            <!-- Producto 4 (NUEVO) -->
+            <div class="product-card" data-category="tartas" data-name="Tarta Carrot Cake (Zanahoria)" data-price="25.00 €" data-desc="Tarta jugosa de zanahoria con especias aromáticas, nueces crujientes y cobertura cremosa de mascarpone." data-img="https://www.shoothecook.es/wp-content/uploads/carrot-cake-facil-receta-f.jpg">
+                <div class="card-img-container">
+                    <img src="https://www.shoothecook.es/wp-content/uploads/carrot-cake-facil-receta-f.jpg" alt="Tarta Carrot Cake">
+                    <span class="badge">Tartas</span>
+                </div>
+                <div class="card-body">
+                    <h3>Tarta Carrot Cake</h3>
+                    <p class="price">25.00 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
                 </div>
             </div>
 
             <!-- Producto 5 -->
-            <div class="catalog-item">
-                <img src="https://images.unsplash.com/photo-1621236378699-8599fab6c0b6?auto=format&fit=crop&w=500&q=80" alt="Empanada Gallega">
-                <div class="catalog-body">
-                    <span class="cat-tag">Obrador Salado</span>
-                    <h3>Empanada de Atún Artesana</h3>
-                    <p>Masa quebrada crujiente rellena de atún en aceite de oliva, pimientos y sofrito casero.</p>
-                    <div class="catalog-bottom">
-                        <span class="price">14,00 € / kg</span>
-                        <a href="https://wa.me/54623554090?text=Hola,%20quiero%20encargar%20Empanada%20de%20Atún." class="btn-tiny" target="_blank" rel="noopener noreferrer">Pedir</a>
-                    </div>
+            <div class="product-card" data-category="pasteles" data-name="Macarons Franceses (Caja 6u)" data-price="12.50 €" data-desc="Surtido de delicados macarons artesanales con sabores variados: vainilla, pistacho, chocolate y frambuesa." data-img="https://latartinegourmande.es/wp-content/uploads/2021/05/macarons-franceses-zaragoza-la-tartine-gourmande.jpg">
+                <div class="card-img-container">
+                    <img src="https://latartinegourmande.es/wp-content/uploads/2021/05/macarons-franceses-zaragoza-la-tartine-gourmande.jpg" alt="Macarons Franceses">
+                    <span class="badge">Pasteles</span>
+                </div>
+                <div class="card-body">
+                    <h3>Macarons Franceses (6u)</h3>
+                    <p class="price">12.50 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
                 </div>
             </div>
 
             <!-- Producto 6 -->
-            <div class="catalog-item">
-                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80" alt="Surtido de Tejas y Magdalenas">
-                <div class="catalog-body">
-                    <span class="cat-tag">Galletas y Pastas</span>
-                    <h3>Magdalenas Caseras de Pueblo</h3>
-                    <p>Esponjosas, con aroma a limón y toque crujiente de azúcar tostado en su parte superior.</p>
-                    <div class="catalog-bottom">
-                        <span class="price">6,00 € / bolsa</span>
-                        <a href="https://wa.me/54623554090?text=Hola,%20quiero%20pedir%20Magdalenas%20Caseras." class="btn-tiny" target="_blank" rel="noopener noreferrer">Pedir</a>
-                    </div>
+            <div class="product-card" data-category="pasteles" data-name="Cupcakes Artesanales (Caja 4u)" data-price="10.00 €" data-desc="Esponjosos magdalenas gourmet decoradas con frosting suave de vainilla, frutos rojos y chocolate." data-img="https://www.reposteriallebres.com/fileuploads/productos/cupcakes-variados0.jpg">
+                <div class="card-img-container">
+                    <img src="https://www.reposteriallebres.com/fileuploads/productos/cupcakes-variados0.jpg" alt="Cupcakes Artesanales">
+                    <span class="badge">Pasteles</span>
+                </div>
+                <div class="card-body">
+                    <h3>Cupcakes Artesanales (4u)</h3>
+                    <p class="price">10.00 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
                 </div>
             </div>
 
-            <!-- Producto 7 -->
-            <div class="catalog-item">
-                <img src="tarta-de-queso-la-vina.jpg" alt="Tarta de Queso Cremosa">
-                <div class="catalog-body">
-                    <span class="cat-tag">Tartas Celebración</span>
-                    <h3>Tarta de Queso Estilo Horno</h3>
-                    <p>Cremosa por dentro, horneada al punto con una delicada base de galleta tostada.</p>
-                    <div class="catalog-bottom">
-                        <span class="price">Desde 23,00 €</span>
-                        <a href="https://wa.me/54623554090?text=Hola,%20quiero%20encargar%20Tarta%20de%20Queso." class="btn-tiny" target="_blank" rel="noopener noreferrer">Pedir</a>
-                    </div>
+            <!-- Producto 7 (NUEVO) -->
+            <div class="product-card" data-category="pasteles" data-name="Milhojas de Crema y Nata" data-price="3.50 €" data-desc="Finas capas de hojaldre crujiente alternadas con crema pastelera suave y nata montada artesanal." data-img="https://laemilita.es/wp-content/uploads/2023/10/bandeja-de-milhojas-de-nata-y-crema-6ud-2-scaled.jpg">
+                <div class="card-img-container">
+                    <img src="https://laemilita.es/wp-content/uploads/2023/10/bandeja-de-milhojas-de-nata-y-crema-6ud-2-scaled.jpg" alt="Milhojas de Crema y Nata">
+                    <span class="badge">Pasteles</span>
+                </div>
+                <div class="card-body">
+                    <h3>Milhojas de Crema y Nata</h3>
+                    <p class="price">3.50 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
                 </div>
             </div>
 
             <!-- Producto 8 -->
-            <div class="catalog-item">
-                <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=500&q=80" alt="Media Luna y Hojaldres">
-                <div class="catalog-body">
-                    <span class="cat-tag">Especialidades</span>
-                    <h3>Napolitanas de Chocolate</h3>
-                    <p>Hojaldre dorado y crujiente con barritas fundidas de chocolate negro en su interior.</p>
-                    <div class="catalog-bottom">
-                        <span class="price">2,00 €</span>
-                        <a href="https://wa.me/54623554090?text=Hola,%20quiero%20pedir%20Napolitanas." class="btn-tiny" target="_blank" rel="noopener noreferrer">Pedir</a>
-                    </div>
+            <div class="product-card" data-category="bolleria" data-name="Croissants de Mantequilla" data-price="2.20 €" data-desc="Hojaldre francés ultracrujiente elaborado con mantequilla artesanal de denominación de origen." data-img="https://www.pandelice.es/wp-content/uploads/2020/04/croissant-mantequilla.jpg">
+                <div class="card-img-container">
+                    <img src="https://www.pandelice.es/wp-content/uploads/2020/04/croissant-mantequilla.jpg" alt="Croissants de Mantequilla">
+                    <span class="badge">Bollería</span>
+                </div>
+                <div class="card-body">
+                    <h3>Croissants de Mantequilla</h3>
+                    <p class="price">2.20 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
                 </div>
             </div>
+
+            <!-- Producto 9 -->
+            <div class="product-card" data-category="bolleria" data-name="Palmera de Chocolate" data-price="2.50 €" data-desc="Crujiente hojaldre caramelizado bañado en una rica capa de chocolate negro artesanal." data-img="https://www.meriendasdepasion.com/wp-content/uploads/2025/02/IMG_4173-scaled-e1740601591562.jpeg?v=1740044627">
+                <div class="card-img-container">
+                    <img src="https://www.meriendasdepasion.com/wp-content/uploads/2025/02/IMG_4173-scaled-e1740601591562.jpeg?v=1740044627" alt="Palmera de Chocolate">
+                    <span class="badge">Bollería</span>
+                </div>
+                <div class="card-body">
+                    <h3>Palmera de Chocolate</h3>
+                    <p class="price">2.50 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
+                </div>
+            </div>
+
+            <!-- Producto 10 (NUEVO) -->
+            <div class="product-card" data-category="bolleria" data-name="Palmera de Yema Tostada" data-price="2.70 €" data-desc="Hojaldre crujiente con cobertura tradicional de crema de yema tostada y glaseado ligero." data-img="https://hnaspuente.com/212-large_default/palmeron-de-yema-palmeron-de-hojaldre-con-yema-sin-gluten-sin-lacteos-un-bocado-dorado-delicado-y-sin-gluten-ni-lactosa-nuestra-.jpg">
+                <div class="card-img-container">
+                    <img src="https://hnaspuente.com/212-large_default/palmeron-de-yema-palmeron-de-hojaldre-con-yema-sin-gluten-sin-lacteos-un-bocado-dorado-delicado-y-sin-gluten-ni-lactosa-nuestra-.jpg" alt="Palmera de Yema Tostada">
+                    <span class="badge">Bollería</span>
+                </div>
+                <div class="card-body">
+                    <h3>Palmera de Yema Tostada</h3>
+                    <p class="price">2.70 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
+                </div>
+            </div>
+
+            <!-- Producto 11 (NUEVO) -->
+            <div class="product-card" data-category="bolleria" data-name="Muffins de Arándanos" data-price="2.80 €" data-desc="Muffin esponjoso repleto de arándanos frescos y toque crujiente de streusel en la superficie." data-img="https://annaspasteleria.com/wp-content/uploads/2017/10/05-2090-post/DSC_0037web.jpg">
+                <div class="card-img-container">
+                    <img src="https://annaspasteleria.com/wp-content/uploads/2017/10/05-2090-post/DSC_0037web.jpg" alt="Muffins de Arándanos">
+                    <span class="badge">Bollería</span>
+                </div>
+                <div class="card-body">
+                    <h3>Muffins de Arándanos</h3>
+                    <p class="price">2.80 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
+                </div>
+            </div>
+
+            <!-- Producto 12 -->
+            <div class="product-card" data-category="bolleria" data-name="Empanada de Manzana y Canela" data-price="3.80 €" data-desc="Hojaldre horneado relleno de finas láminas de manzana natural maceradas con canela y azucar moreno." data-img="https://images.aws.nestle.recipes/original/empanada_de_manzana_principal_horizontal_25f3.jpg">
+                <div class="card-img-container">
+                    <img src="https://images.aws.nestle.recipes/original/empanada_de_manzana_principal_horizontal_25f3.jpg" alt="Empanada de Manzana">
+                    <span class="badge">Bollería</span>
+                </div>
+                <div class="card-body">
+                    <h3>Empanada de Manzana</h3>
+                    <p class="price">3.80 €</p>
+                    <button class="btn-detail">Ver Detalles</button>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <!-- Sección Sobre el Obrador / Nuestra Filosofía -->
-    <section id="nosotros" class="about-section">
-        <div class="about-container">
-            <div class="about-text-content">
-                <span>Maestros Pasteleros</span>
-                <h2>Pasión y Tradición en Granada</h2>
-                <p>En <strong>Pastelería Loja</strong> entendemos la repostería no solo como un oficio, sino como una forma de transmitir emociones. Cada madrugada, nuestros hornos se encienden para elaborar piezas únicas combinando el recetario tradicional granadino con técnicas de vanguardia.</p>
-                <p>Utilizamos exclusivamente materias primas seleccionadas, evitando conservantes industriales, para que cada bocado conserve el sabor auténtico de lo hecho en casa.</p>
-                <div class="about-highlights">
-                    <div class="highlight-item">✔️ Cocina Propia y Diaria</div>
-                    <div class="highlight-item">✔️ Encargos Personalizados</div>
-                    <div class="highlight-item">✔️ Ubicación Céntrica en Loja</div>
-                </div>
-                <a href="https://wa.me/54623554090?text=Hola,%20quiero%20consultar%20sobre%20un%20evento%20o%20encargo." class="btn btn-primary" target="_blank" rel="noopener noreferrer">Hablar con nosotros</a>
-            </div>
-            <div class="about-image-content">
-                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80" alt="Obrador de pastelería artesanal">
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección de Preguntas Frecuentes (FAQs) -->
-    <section id="faqs" class="faq-section">
+    <!-- Sección Lista de Precios -->
+    <section id="precios" class="pricing-section">
         <div class="section-title">
-            <span>Resolvemos tus dudas</span>
-            <h2>Preguntas Frecuentes</h2>
-            <p>Todo lo que necesitas saber para realizar tus encargos de forma rápida</p>
+            <h2>Lista de Precios</h2>
+            <p>Consulta nuestros precios oficiales para encargos y tienda</p>
         </div>
+        <div class="pricing-container">
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Producto / Variedad</th>
+                        <th>Precio (IVA incl.)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="table-badge tartas">Tartas</span></td>
+                        <td>Tarta de Chocolate Belga (8-10 porciones)</td>
+                        <td class="price-col">28.00 €</td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-badge tartas">Tartas</span></td>
+                        <td>Cheesecake de Frambuesa (8 porciones)</td>
+                        <td class="price-col">24.00 €</td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-badge tartas">Tartas</span></td>
+                        <td>Tarta Red Velvet (8 porciones)</td>
+                        <td class="price-col">26.00 €</td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-badge tartas">Tartas</span></td>
+                        <td>Tarta Carrot Cake de Zanahoria (8 porciones)</td>
+                        <td class="price-col">25.00 €</td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-badge pasteles">Pasteles</span></td>
+                        <td>Caja de Macarons Franceses (6 unidades)</td>
+                        <td class="price-col">12.50 €</td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-badge pasteles">Pasteles</span></td>
+                        <td>Cupcakes Artesanales Surtidos (4 unidades)</td>
+                        <td class="price-col">10.00 €</td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-badge pasteles">Pasteles</span></td>
+                        <td>Milhojas de Crema y Nata Montada</td>
+                        <td class="price-col">3.50 €</td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-badge bolleria">Bollería</span></td>
+                        <td>Croissant de Mantequilla Artesanal</td>
+                        <td class="price-col">2.20 €</td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-badge bolleria">Bollería</span></td>
+                        <td>Palmera Gigante de Chocolate Negro</td>
+                        <td class="price-col">2.50 €</td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-badge bolleria">Bollería</span></td>
+                        <td>Palmera de Yema Tostada</td>
+                        <td class="price-col">2.70 €</td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-badge bolleria">Bollería</span></td>
+                        <td>Muffin Artesanal de Arándanos</td>
+                        <td class="price-col">2.80 €</td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-badge bolleria">Bollería</span></td>
+                        <td>Empanada de Manzana y Canela</td>
+                        <td class="price-col">3.80 €</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
-        <div class="faq-grid">
-            <div class="faq-card">
-                <h3>¿Con cuánta antelación debo encargar una tarta?</h3>
-                <p>Recomendamos realizar tus encargos de tartas personalizadas o de celebración con al menos 24 a 48 horas de antelación para garantizar los ingredientes y detalles solicitados.</p>
+    <!-- Sección Ubicación -->
+    <section id="ubicacion" class="location-section">
+        <div class="section-title">
+            <h2>Visita Nuestra Tienda</h2>
+            <p>Ven a disfrutar de nuestros productos en un ambiente acogedor</p>
+        </div>
+        <div class="location-container">
+            <div class="location-info">
+                <h3><i class="fa-solid fa-store"></i> Dulce Tentación</h3>
+                <p><i class="fa-solid fa-location-dot"></i> <strong>Dirección:</strong> Cuesta la Posadilla 2, 18300, Loja (Granada), España</p>
+                <p><i class="fa-solid fa-clock"></i> <strong>Horario de atención:</strong></p>
+                <ul>
+                    <li>Lunes a Viernes: 08:30 h - 20:30 h</li>
+                    <li>Sábados y Domingos: 09:00 h - 14:30 h</li>
+                </ul>
+                <p><i class="fa-solid fa-phone"></i> <strong>Teléfono:</strong> +34 623 55 40 90</p>
             </div>
-            <div class="faq-card">
-                <h3>¿Cómo puedo realizar un pedido o consulta?</h3>
-                <p>Puedes escribirnos directamente a nuestro número de WhatsApp <strong>+54 623 55 40 90</strong>, llamarnos o visitarnos directamente en Cuesta la posadila 2, Loja, Granada.</p>
-            </div>
-            <div class="faq-card">
-                <h3>¿Realizan encargos para bodas y eventos?</h3>
-                <p>Sí, elaboramos mesas dulces, tartas nupciales a medida y surtidos variados para bodas, bautizos, comuniones y eventos corporativos en toda Granada.</p>
+            <div class="location-map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3180.8263591932486!2d-4.153289123565012!3d37.16812897214389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fc82b9fa4323%3A0x6b8f3a388b1f486f!2sCuesta%20la%20Posadilla%2C%202%2C%2018300%20Loja%2C%20Granada!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0; border-radius: 12px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </div>
     </section>
 
-    <!-- Sección de Contacto e Información Directa -->
+    <!-- Sección Contacto -->
     <section id="contacto" class="contact-section">
-        <div class="contact-box-main">
-            <h3>¿Listo para disfrutar de un buen momento dulce?</h3>
-            <p>Pásate por nuestra pastelería o escríbenos directamente con un solo clic para reservar tus especialidades del día.</p>
-            
-            <div class="contact-grid-info">
-                <div class="contact-info-card">
-                    <div class="ci-icon">📍</div>
-                    <h4>Dirección</h4>
-                    <p>Cuesta la posadila 2<br>18300 Granada, España</p>
-                </div>
-                <div class="contact-info-card">
-                    <div class="ci-icon">📞</div>
-                    <h4>Teléfono Fijo</h4>
-                    <p>623 55 40 90</p>
-                </div>
-                <div class="contact-info-card">
-                    <div class="ci-icon">💬</div>
-                    <h4>WhatsApp Directo</h4>
-                    <p>+54 623 55 40 90</p>
-                </div>
-            </div>
-
-            <a href="https://wa.me/54623554090?text=Hola,%20quiero%20hacer%20un%20pedido%20desde%20la%20página%20web." class="btn btn-whatsapp btn-large" target="_blank" rel="noopener noreferrer">
-                💬 Abrir Chat de WhatsApp Directo
+        <div class="contact-box">
+            <h2>¿Tienes algún evento o quieres hacer un encargo especial?</h2>
+            <p>Escríbenos directamente a nuestro WhatsApp y te atenderemos al instante.</p>
+            <a href="https://wa.me/34623554090?text=Hola,%20me%20gustaría%20hacer%20un%20encargo%20especial." target="_blank" class="whatsapp-cta-btn">
+                <i class="fa-brands fa-whatsapp"></i> Hablar por WhatsApp (+34 623 55 40 90)
             </a>
         </div>
     </section>
 
-    <!-- Pie de Página -->
+    <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="footer-col">
-                <h3>Pastelería Loja</h3>
-                <p>Alta repostería tradicional en Granada.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Enlaces Rápidos</h4>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#destacados">Destacados</a></li>
-                    <li><a href="#catalogo">Catálogo</a></li>
-                    <li><a href="#nosotros">¿Quiénes somos?</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Contacto</h4>
-                <p>Cuesta la posadila 2, Granada</p>
-                <p>Tel: 623 55 40 90</p>
-                <p>WhatsApp: +54 623 55 40 90</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Pastelería Loja. Todos los derechos reservados. | Hecho con arte y tradición.</p>
-        </div>
+        <p>&copy; 2026 Dulce Tentación Pastelería Artesanal | Cuesta la Posadilla 2, 18300, Loja, Granada. Todos los derechos reservados.</p>
     </footer>
 
+    <!-- Botón Flotante WhatsApp -->
+    <a href="https://wa.me/34623554090?text=Hola,%20vengo%20de%20su%20web%20y%20quiero%20información." class="floating-whatsapp" target="_blank" title="Chatear por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Modal de Detalles de Producto -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImg" src="" alt="Producto">
+            <h2 id="modalTitle"></h2>
+            <p id="modalDesc"></p>
+            <div class="modal-footer">
+                <span id="modalPrice" class="modal-price"></span>
+                <a id="modalWhatsapp" href="#" target="_blank" class="btn-modal-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> Consultar por este producto
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enlace a JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
